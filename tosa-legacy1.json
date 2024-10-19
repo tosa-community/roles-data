@@ -24,7 +24,7 @@
           "limit": -1,
           "aliases": ["town support", "townsupport", "ts"],
           "roles": [
-            { "name": "Escort", "limit": 6, "aliases": ["escort", "esc"], "wincon": 0, "color": [127, 255, 0] },
+            { "name": "Tavern Keeper", "limit": 6, "aliases": ["escort", "esc", "tavern keeper", "tavernkeeper", "tavern", "tav"], "wincon": 0, "color": [127, 255, 0] },
             { "name": "Transporter", "limit": 6, "aliases": ["transporter", "trans"], "wincon": 0, "color": [127, 255, 0] },
             { "name": "Medium", "limit": 6, "aliases": ["medium", "med"], "wincon": 0, "color": [127, 255, 0] },
             { "name": "Retributionist", "limit": 1, "aliases": ["retributionist", "retri", "ret"], "wincon": 0, "color": [127, 255, 0] },
@@ -92,7 +92,7 @@
           "limit": -1,
           "aliases": ["mafia support", "mafiasupport", "ms"],
           "roles": [
-            { "name": "Consort", "limit": 6, "aliases": ["consort"], "wincon": 1, "color": [221, 0, 0] },
+            { "name": "Bootlegger", "limit": 6, "aliases": ["consort", "bootlegger"], "wincon": 1, "color": [221, 0, 0] },
             { "name": "Consigliere", "limit": 6, "aliases": ["consigliere", "consig"], "wincon": 1, "color": [221, 0, 0] },
             { "name": "Blackmailer", "limit": 6, "aliases": ["blackmailer", "bmer", "bm"], "wincon": 1, "color": [221, 0, 0] },
             { "name": "Saboteur", "limit": 1, "aliases": ["saboteur", "sabo"], "wincon": 1, "color": [221, 0, 0] },
