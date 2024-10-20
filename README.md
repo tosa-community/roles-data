@@ -6,19 +6,19 @@ The roles data is stored in JSON format. They have the following properties:
 
 - `faction`: List of factions:
   - `name`: Name of faction
-  - `limit`: Maximum allowed occurence of faction in rolelist
+  - `limit`: Maximum allowed occurence of faction in rolelist (`-1` if no limit)
   - `aliases`: List of possible aliases for faction
   - `require`: List of roles that are guaranteed a slot (Optional)
   - `require_min`: Minimum amount of roles of the factions in the list for requirement to take effect (Optional)
   - `fallback`: Entry to roll to meet requirement (Optional)
   - `alignments`: List of alignments in faction:
     - `name`: Name of alignment
-    - `limit`: Maximum allowed occurence of alignment in rolelist
+    - `limit`: Maximum allowed occurence of alignment in rolelist (`-1` if no limit)
     - `aliases`: List of possible aliases for alignment
     - `roles`: List of roles in alignment:
       - `name`: Name of role
       - `ascii_name`: Alternative name of role for ASCII platforms (Optional)
-      - `limit`: Maximum allowed occurence of role in rolelist
+      - `limit`: Maximum allowed occurence of role in rolelist (`-1` if no limit)
       - `aliases`: List of possible aliases for role
       - `wincon`: ID of win condition for role (`-1` if not opposing all other factions)
       - `oppose`: ID of win condition that is required to exist in the rolelist for this role to be rollable (Optional)
