@@ -8,7 +8,7 @@
       "alignments": [
         {
           "name": "Town Power",
-          "limit": 3,
+          "limit": 2,
           "aliases": ["town power", "townpower", "tpow"],
           "roles": [
             { "name": "Jailor", "limit": 1, "aliases": ["jailor"], "wincon": 0, "color": [6, 224, 12] },
@@ -91,7 +91,7 @@
           "limit": -1,
           "aliases": ["coven power", "covenpower", "covpow", "covp", "cpow", "cp"],
           "roles": [
-            { "name": "Coven Leader", "limit": 1, "aliases": ["coven leader", "covenleader", "cl"], "wincon": 1, "color": [181, 69, 255] },
+            { "name": "Archmage", "limit": 1, "aliases": ["archmage", "coven leader", "covenleader", "cl"], "wincon": 1, "color": [181, 69, 255] },
             { "name": "Hex Master", "limit": 1, "aliases": ["hex master", "hexmaster", "hex", "hm"], "wincon": 1, "color": [181, 69, 255] },
             { "name": "Witch", "limit": 1, "aliases": ["witch"], "wincon": 1, "color": [181, 69, 255] },
             { "name": "Bulwark", "limit": 1, "aliases": ["bulwark", "bul", "wraith", "wrai"], "wincon": 1, "color": [181, 69, 255] }
