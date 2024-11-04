@@ -15,7 +15,11 @@
             "description": "Name of faction",
             "type": "string"
           },
-          "limit": {
+          "asciiName": {
+            "description": "Alternative name of role for ASCII-only platforms",
+            "type": "string"
+          },
+          "maximum": {
             "description": "Maximum allowed occurence of faction in rolelist",
             "type": "integer"
           },
@@ -27,14 +31,14 @@
             }
           },
           "require": {
-            "description": "List of roles that are guaranteed a slot",
+            "description": "List of entries that are required with this faction",
             "type": "array",
             "items": {
               "type": "string"
             }
           },
-          "require_min": {
-            "description": "Minimum amount of roles of the factions in the list for requirement to take effect",
+          "requireMin": {
+            "description": "Minimum amount of roles of the faction in the list for requirement to take effect",
             "type": "integer"
           },
           "fallback": {
@@ -51,7 +55,11 @@
                   "description": "Name of alignment",
                   "type": "string"
                 },
-                "limit": {
+                "asciiName": {
+                  "description": "Alternative name of role for ASCII-only platforms",
+                  "type": "string"
+                },
+                "maximum": {
                   "description": "Maximum allowed occurence of alignment in rolelist",
                   "type": "integer"
                 },
@@ -72,11 +80,11 @@
                         "description": "Name of role",
                         "type": "string"
                       },
-                      "ascii_name": {
-                        "description": "Alternative name of role for ASCII platforms",
+                      "asciiName": {
+                        "description": "Alternative name of role for ASCII-only platforms",
                         "type": "string"
                       },
-                      "limit": {
+                      "maximum": {
                         "description": "Maximum allowed occurence of role in rolelist",
                         "type": "integer"
                       },
@@ -126,15 +134,15 @@
                         }
                       }
                     },
-                    "required": [ "name", "limit", "aliases", "wincon", "color" ]
+                    "required": [ "name", "aliases", "wincon", "color" ]
                   }
                 }
               },
-              "required": [ "name", "limit", "aliases", "roles" ]
+              "required": [ "name", "aliases", "roles" ]
             }
           }
         },
-        "required": [ "name", "limit", "aliases", "alignments" ]
+        "required": [ "name", "aliases", "alignments" ]
       }
     },
     "groups": {
